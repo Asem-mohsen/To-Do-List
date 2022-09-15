@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 500px;
+    margin: 50px auto;
+}
+
+.form{
+    background-color: #ebebeb;
+    height: 70px;
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
+    padding: 20px;
+}
+
+.input{
+    border: 1px solid #ebebeb;
+    border-radius: 8px;
+    width: 304px;
+    flex: 1;
+    padding: 10px;
+}
+
+.input:focus{
+    outline: none;
+}
+.add{
+    background-color: #6bcefd;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    width: 80px;
+    border-radius: 7px;
+    margin-left: 10px;
+    padding: 12px;
+}
+.add:hover{
+    background-color: #116f78;
+}
+.tasks{
+    background-color: #ebebeb;
+    margin-top: 30px;
+    border-radius: 8px;
+    padding: 20px;
+}
+.tasks .task{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    border-bottom: 1px solid #c1c1c1;
+    padding-bottom: 15px;
+    align-items: center;
+    transition: 0.3s;
+    padding-top: 20px;
+}
+.tasks .task:hover{
+    background-color: #cbcbcb;
+    border-radius: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.tasks .task span{
+    background-color: #ff5454;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.tasks .task span:hover,
+.tasks .TaskDone span:hover{
+    background-color: #b71b1b;
+}
+.tasks .TaskDone{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    border-bottom: 1px solid #c1c1c1;
+    padding-bottom: 15px;
+    align-items: center;
+    transition: 0.3s;
+    opacity: 0.5;
+    padding-top: 20px;
+    border-radius: 8px;
+}
+
+.tasks .TaskDone span{
+    background-color: #ff5454;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
